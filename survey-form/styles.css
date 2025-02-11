@@ -1,0 +1,22 @@
+body {
+    background-color: #e6ffe6;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+    text-align: center;
+}
+
+#survey-form {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+label {
+    display: block;
+}
