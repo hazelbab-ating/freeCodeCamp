@@ -1,28 +1,38 @@
 body {
     background-color: rgba(136, 136, 206, 0.7);
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    color: #f3f3f3;
 }
 
-#title {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 0;
-    font-size: 35px;
+.container {
+    margin: 50px;
 }
 
-#description {
+.header {
     text-align: center;
-    font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 20px;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.header h1, .header p {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 #survey-form {
+    background-color: #1b1b32;
     width: 50%;
-    background-color: rgba(58, 58, 158, 0.8);
     margin: 0 auto;
+    padding: 30px;
     border-radius: 5px;
 }
 
+.form-content {
+    margin: 0 auto 10px auto;
+    padding: 5px;
+}
+
+label {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
